@@ -9,7 +9,7 @@ import { map } from 'rxjs/operators';
 })
 export class ApiService {
     // endpoint
-    apiUrl = 'https://localhost:44355/api/CubeSummation';
+    apiUrl = 'https://localhost:44355/api/CubeSummation?routeArchive=D:/CubeSummation/ApiCubeSummation/sampleInput.txt';
     data: any = {};
     constructor(private httpClient: HttpClient) { }
 
